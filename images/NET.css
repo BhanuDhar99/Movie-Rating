@@ -1,0 +1,889 @@
+* {
+    box-sizing:border-box;
+   }
+       #header {
+           background: black;
+           font-family: "Ubuntu";
+           color: white;
+           overflow: auto;
+           padding-left: 25px;
+           padding-right: 25px;
+       }
+
+       .logo {
+           float: left;
+           display: inline-block;
+           background: red;
+           margin-right: 25px;
+           padding: 20px;
+       }
+
+       .leftmenu {
+           float: left;
+           display: inline-block;
+
+       }
+
+       .leftmenu ul {
+           list-style: none;
+           padding: 0;
+           margin: 0;
+
+       }
+
+       .leftmenu ul li {
+           display: inline-block;
+           padding: 20px;
+       }
+
+
+       .leftmenu ul li a {
+           color: white;
+           font-family: "Ubuntu";
+       }
+
+       .leftmenu ul li a:hover {
+           color: red;
+       }
+
+       .rightmenu {
+           float: right;
+           display: inline-block;
+           color: black;
+
+
+       }
+
+       .rightmenu ul {
+           list-style: none;
+           padding: 0;
+           margin: 0;
+
+       }
+
+       .rightmenu ul li {
+           display: inline-block;
+           padding: 20px;
+       }
+
+       .rightmenu ul li a {
+           color: white;
+       }
+
+       .rightmenu ul li a:hover {
+           color: red;
+       }
+
+       input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 100%;
+}
+
+       #header a {
+           font-family: "Montserrat-Bold";
+           text-decoration: none;
+       }
+
+       #largeimage {
+           padding: 100px 25px;
+           background:  url(https://images2.alphacoders.com/868/thumb-1920-868376.jpg);
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           background-size: cover;
+
+       }
+
+       .discription-box {
+           width: 50%;
+
+       }
+
+       .discription-box h6 {
+           font-family: "Ubuntu";
+           font-weight: 300;
+           font-size: 16px;
+           color: white;
+           margin: 0;
+       }
+
+
+       .discription-box h1 {
+           font-family: serif;
+           font-weight: 800;
+           font-size: 60px;
+           color: white;
+           margin: 0;
+       }
+
+       .discription-box h3 {
+           font-family: "Montserrat-Bold";
+           font-weight: 200;
+           font-size: 20px;
+           color: white;
+           margin: 0;
+       }
+
+       .discription-box h4 {
+           font-family: "Montserrat-Bold";
+           font-weight: 350;
+           color: white;
+           margin: 0;
+       }
+
+       .discription-box p {
+           margin-top: 25px !important;
+           font-weight: 50;
+           font-size: 16px;
+           margin-bottom: 50px !important;
+           color: white;
+           margin: 0;
+       }
+
+       .info-button {
+
+           color: white;
+           border: none;
+           padding-right: : 22px;
+           padding-left: 20px;
+
+       }
+
+       .play-button {
+
+           border: none;
+           color: white;
+
+       }
+
+       .add-button {
+
+           border: none;
+           color: white;
+
+
+
+       }
+
+       .info-button:hover,
+       .play-button:hover,
+       .add-button:hover {
+           background: rgba(229, 0, 0);
+       }
+
+   #video-section{
+     width:100%;
+     background:black;
+  }
+
+   .row{
+
+     width:100%;
+     font-size:0;
+   }
+
+  .video-boxes{
+  
+    display: inline-table;
+    background:red;
+    width:300px;
+    margin: 2.5%;
+    font-size:16px;
+    min-height:150px;
+    padding:15px;
+  }
+
+  .video-boxes h4{
+    margin:0;
+    padding:0;
+    font-weight:100px;
+    font-size:20px;
+    font-family:helvetica;
+    color:white;
+
+  }
+
+  .video-boxes p{
+    display:none;
+
+
+
+  }
+
+ .video1{
+  background: -webkit-linear-gradient(45deg, rgba(229, 0, 0, 0.5) 0%, #000000 100%), url(https://cdn.pastemagazine.com/www/system/images/photo_albums/best-movie-posters-2016/large/moonlight-ver2-xlg.jpg?1384968217);
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           background-size: cover;
+           color: white;
+
+
+
+
+ }
+
+ .video1:hover {
+
+  width: 300px;
+  height: 300px;
+  background:  url(https://cdn.pastemagazine.com/www/system/images/photo_albums/best-movie-posters-2016/large/moonlight-ver2-xlg.jpg?1384968217);;
+  background-size: cover;
+  color: white;
+
+}
+
+ .video2{
+   background: -webkit-linear-gradient(45deg, rgba(229, 0, 0, 0.5) 0%, #000000 100%), url(https://i.pinimg.com/originals/ac/2f/58/ac2f58d9275e2399279c1fda4220178c.jpg);
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           background-size: cover;
+           color: white;
+
+}
+
+
+.video2:hover {
+
+ width: 300px;
+ height: 300px;
+ background:  url(https://i.pinimg.com/originals/ac/2f/58/ac2f58d9275e2399279c1fda4220178c.jpg);;
+ background-size: cover;
+ color: white;
+}
+
+.video3{
+   background: -webkit-linear-gradient(45deg, rgba(229, 0, 0, 0.5) 0%, #000000 100%), url(https://cdn.europosters.eu/image/750/posters/rush-movie-poster-i18511.jpg);
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           background-size: cover;
+           color: white;
+
+}
+
+
+.video3:hover {
+
+ width: 300px;
+ height: 300px;
+ background:  url(https://cdn.europosters.eu/image/750/posters/rush-movie-poster-i18511.jpg);
+ background-size: cover;
+ color: white;
+}
+
+
+ .video4{
+   background: -webkit-linear-gradient(45deg, rgba(229, 0, 0, 0.5) 0%, #000000 100%), url(https://cdn3.digitalartsonline.co.uk/cmsdata/slideshow/3662115/baby-driver-rory-hi-res.jpg);
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           background-size: cover;
+           color: white;
+
+}
+
+
+
+
+.video4:hover {
+
+ width: 300px;
+ height: 300px;
+ background:  url(https://cdn3.digitalartsonline.co.uk/cmsdata/slideshow/3662115/baby-driver-rory-hi-res.jpg);;
+ background-size: cover;
+ color: white;
+}
+ .video5{
+   background: -webkit-linear-gradient(45deg, rgba(229, 0, 0, 0.5) 0%, #000000 100%), url(https://cdn-images-1.medium.com/max/800/1*ridpKhjMzA3kp7MrjZJYXA.jpeg);
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           background-size: cover;
+           color: white;
+
+}
+
+
+.video5:hover {
+
+ width: 300px;
+ height: 300px;
+ background:  url(https://cdn-images-1.medium.com/max/800/1*ridpKhjMzA3kp7MrjZJYXA.jpeg);;
+ background-size: cover;
+ color: white;
+}
+
+.video6{
+   background: -webkit-linear-gradient(45deg, rgba(229, 0, 0, 0.5) 0%, #000000 100%), url(https://cdn.europosters.eu/image/750/posters/rush-movie-poster-i18511.jpg);
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           background-size: cover;
+           color: white;
+
+}
+
+
+.video6:hover {
+
+ width: 300px;
+ height: 300px;
+ background:  url(https://cdn.europosters.eu/image/750/posters/rush-movie-poster-i18511.jpg);;
+ background-size: cover;
+ color: white;
+}
+
+.video7{
+   background: -webkit-linear-gradient(45deg, rgba(229, 0, 0, 0.5) 0%, #000000 100%), url(https://cdn.empireonline.com/jpg/70/0/0/1280/960/aspectfit/0/0/0/0/0/0/c/features/59e8d795405a5c6805947751/47%20Lord%20of%20War.jpg);
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           background-size: cover;
+           color: white;
+
+}
+
+
+.video7:hover {
+
+ width: 300px;
+ height: 300px;
+ background:  url(https://cdn.empireonline.com/jpg/70/0/0/1280/960/aspectfit/0/0/0/0/0/0/c/features/59e8d795405a5c6805947751/47%20Lord%20of%20War.jpg);
+ background-size: cover;
+ color: white;
+}
+.video8{
+   background: -webkit-linear-gradient(45deg, rgba(229, 0, 0, 0.5) 0%, #000000 100%), url(https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/2018-bestposters-proudmary-768x1138.jpg);
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           background-size: cover;
+           color: white;
+
+}
+
+.video8:hover {
+
+ width: 300px;
+ height: 300px;
+ background:  url(https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/2018-bestposters-proudmary-768x1138.jpg);
+ background-size: cover;
+ color: white;
+
+}
+
+.video9{
+   background: -webkit-linear-gradient(45deg, rgba(229, 0, 0, 0.5) 0%, #000000 100%), url(https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/2018-bestposters-summerof84-768x1137.jpg);
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           background-size: cover;
+           color: white;
+
+}
+
+
+.video9:hover {
+
+ width: 300px;
+ height: 300px;
+ background:  url(https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/2018-bestposters-summerof84-768x1137.jpg);
+ background-size: cover;
+ color: white;
+
+}
+
+.video10{
+   background: -webkit-linear-gradient(45deg, rgba(229, 0, 0, 0.5) 0%, #000000 100%), url(https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/2018-bestposters-spidermanspiderverse-768x1138.jpg);
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           background-size: cover;
+           color: white;
+
+}
+
+
+.video10:hover {
+
+ width: 300px;
+ height: 300px;
+ background:  url(https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/2018-bestposters-spidermanspiderverse-768x1138.jpg);
+ background-size: cover;
+ color: white;
+
+}
+
+.video11{
+   background: -webkit-linear-gradient(45deg, rgba(229, 0, 0, 0.5) 0%, #000000 100%), url(https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/2018-bestposters-deadpool2-768x1138.jpg);
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           background-size: cover;
+           color: white;
+
+}
+
+
+.video11:hover {
+
+ width: 300px;
+ height: 300px;
+ background:  url(https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/2018-bestposters-deadpool2-768x1138.jpg);
+ background-size: cover;
+ color: white;
+
+}
+
+.video12{
+   background: -webkit-linear-gradient(45deg, rgba(229, 0, 0, 0.5) 0%, #000000 100%), url(https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/2018-bestposters-thepredator-768x1126.jpg);
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           background-size: cover;
+           color: white;
+
+}
+
+
+.video12:hover {
+
+ width: 300px;
+ height: 300px;
+ background:  url(https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/2018-bestposters-thepredator-768x1126.jpg);
+ background-size: cover;
+ color: white;
+}
+
+.video13{
+   background: -webkit-linear-gradient(45deg, rgba(229, 0, 0, 0.5) 0%, #000000 100%), url(https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/2018-bestposters-incredibles2-768x1138.jpg);
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           background-size: cover;
+           color: white;
+
+}
+
+
+.video13:hover {
+
+ width: 300px;
+ height: 300px;
+ background:  url(https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/2018-bestposters-incredibles2-768x1138.jpg);
+ background-size: cover;
+ color: white;
+
+}
+
+.video14{
+   background: -webkit-linear-gradient(45deg, rgba(229, 0, 0, 0.5) 0%, #000000 100%), url(https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/2018-bestposters-hereditary-768x1138.jpg);
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           background-size: cover;
+           color: white;
+
+}
+
+
+.video14:hover {
+
+ width: 300px;
+ height: 300px;
+ background:  url(https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/2018-bestposters-hereditary-768x1138.jpg);
+ background-size: cover;
+ color: white;
+}
+
+.video15{
+   background: -webkit-linear-gradient(45deg, rgba(229, 0, 0, 0.5) 0%, #000000 100%), url(https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/2018-bestposters-frontrunner-768x1138.jpg);
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           background-size: cover;
+           color: white;
+
+}
+
+
+
+.video15:hover {
+
+ width: 300px;
+ height: 300px;
+ background:  url(https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/2018-bestposters-frontrunner-768x1138.jpg);
+ background-size: cover;
+ color: white;
+
+}
+.video16{
+   background: -webkit-linear-gradient(45deg, rgba(229, 0, 0, 0.5) 0%, #000000 100%), url(https://cms.entertainment.ie/wp-content/uploads/2016/04/fb8a1c43266ad5260fdd2bc207e70f31c133ce567c064ceab0a1d26f39642d61-e1549204880859.jpg);
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           background-size: cover;
+           color: white;
+
+}
+
+
+.video16:hover {
+
+ width: 300px;
+ height: 300px;
+ background:  url(https://cms.entertainment.ie/wp-content/uploads/2016/04/fb8a1c43266ad5260fdd2bc207e70f31c133ce567c064ceab0a1d26f39642d61-e1549204880859.jpg);
+ background-size: cover;
+ color: white;
+}
+
+.video17{
+   background: -webkit-linear-gradient(45deg, rgba(229, 0, 0, 0.5) 0%, #000000 100%), url(https://cms.entertainment.ie/wp-content/uploads/2016/04/PW51827-Joker-Why-So-Serious.jpg);
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           background-size: cover;
+           color: white;
+
+}
+
+
+.video17:hover {
+
+ width: 300px;
+ height: 300px;
+ background:  url(https://cms.entertainment.ie/wp-content/uploads/2016/04/PW51827-Joker-Why-So-Serious.jpg);;
+ background-size: cover;
+ color: white;
+
+}
+
+.video18{
+   background: -webkit-linear-gradient(45deg, rgba(229, 0, 0, 0.5) 0%, #000000 100%), url(https://cms.entertainment.ie/wp-content/uploads/2016/04/aladdin-poster.jpg);
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           background-size: cover;
+           color: white;
+
+}
+
+
+.video18:hover {
+
+ width: 300px;
+ height: 300px;
+ background:  url(https://cms.entertainment.ie/wp-content/uploads/2016/04/aladdin-poster.jpg);
+ background-size: cover;
+ color: white;
+}
+
+.video19{
+   background: -webkit-linear-gradient(45deg, rgba(229, 0, 0, 0.5) 0%, #000000 100%), url(https://cms.entertainment.ie/wp-content/uploads/2016/04/MV5BZTNkZmU0ZWQtZjQzMy00YTNmLWFmN2MtZGNkMmU1OThmMGYwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_-e1549203798347.jpg);
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           background-size: cover;
+           color: white;
+
+}
+
+.video19:hover {
+
+ width: 300px;
+ height: 300px;
+ background:  url(https://cms.entertainment.ie/wp-content/uploads/2016/04/MV5BZTNkZmU0ZWQtZjQzMy00YTNmLWFmN2MtZGNkMmU1OThmMGYwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_-e1549203798347.jpg);;
+ background-size: cover;
+ color: white;
+}
+
+
+.video20{
+   background: -webkit-linear-gradient(45deg, rgba(229, 0, 0, 0.5) 0%, #000000 100%), url(https://cms.entertainment.ie/wp-content/uploads/2016/04/raiders_of_the_lost_ark_ver2-e1549205910886.jpg);
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           background-size: cover;
+           color: white;
+
+}
+
+
+.video20:hover {
+
+ width: 300px;
+ height: 300px;
+ background:  url(https://cms.entertainment.ie/wp-content/uploads/2016/04/raiders_of_the_lost_ark_ver2-e1549205910886.jpg);
+ background-size: cover;
+ color: white;
+}
+
+.video21{
+   background: -webkit-linear-gradient(45deg, rgba(229, 0, 0, 0.5) 0%, #000000 100%), url(http://www.thinkhero.com/wp-content/uploads/2011/10/dragontattooposter61.jpeg);
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           background-size: cover;
+           color: white;
+
+}
+
+
+.video21:hover {
+
+ width: 300px;
+ height: 300px;
+ background:  url(http://www.thinkhero.com/wp-content/uploads/2011/10/dragontattooposter61.jpeg);
+ background-size: cover;
+ color: white;
+}
+
+.video22{
+   background: -webkit-linear-gradient(45deg, rgba(229, 0, 0, 0.5) 0%, #000000 100%), url(https://cms.entertainment.ie/wp-content/uploads/2016/04/taxi-driver.jpg);
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           background-size: cover;
+           color: white;
+
+}
+
+
+.video22:hover {
+
+ width: 300px;
+ height: 300px;
+ background:  url(https://cms.entertainment.ie/wp-content/uploads/2016/04/taxi-driver.jpg);
+ background-size: cover;
+ color: white;
+}
+
+.video23{
+   background: -webkit-linear-gradient(45deg, rgba(229, 0, 0, 0.5) 0%, #000000 100%), url(http://2.bp.blogspot.com/_aaVprncJvaA/S_IV6AR5TGI/AAAAAAAAAoI/dYxz5gvKRMg/s1600/pulpfiction1.jpg);
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           background-size: cover;
+           color: white;
+
+}
+
+
+.video23:hover {
+
+ width: 300px;
+ height: 300px;
+ background:  url(http://2.bp.blogspot.com/_aaVprncJvaA/S_IV6AR5TGI/AAAAAAAAAoI/dYxz5gvKRMg/s1600/pulpfiction1.jpg);
+ background-size: cover;
+ color: white;
+}
+
+.video24{
+   background: -webkit-linear-gradient(45deg, rgba(229, 0, 0, 0.5) 0%, #000000 100%), url(http://pics.filmaffinity.com/The_Shining-453129380-large.jpg);
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           background-size: cover;
+           color: white;
+
+}
+
+
+
+.video24:hover {
+
+ width: 300px;
+ height: 300px;
+ background:  url(http://pics.filmaffinity.com/The_Shining-453129380-large.jpg);
+ background-size: cover;
+ color: white;
+}
+
+.video25{
+   background: -webkit-linear-gradient(45deg, rgba(229, 0, 0, 0.5) 0%, #000000 100%), url(https://cms.entertainment.ie/wp-content/uploads/2016/04/terminator-2-french-movie-poster-15x21-91-schwarzenegger-james-cameron-e1549203082175.jpg);
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           background-size: cover;
+           color: white;
+
+}
+
+
+.vide25:hover {
+
+ width: 300px;
+ height: 300px;
+ background:  url(https://cms.entertainment.ie/wp-content/uploads/2016/04/terminator-2-french-movie-poster-15x21-91-schwarzenegger-james-cameron-e1549203082175.jpg);
+ background-size: cover;
+ color: white;
+
+}
+.video26{
+   background: -webkit-linear-gradient(45deg, rgba(229, 0, 0, 0.5) 0%, #000000 100%), url(http://photos.imageevent.com/afap/wallpapers/movies/theempirestrikesback//empire-strikes-back-poster.jpg);
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           background-size: cover;
+           color: white;
+
+}
+
+
+.video26:hover {
+
+ width: 300px;
+ height: 300px;
+ background:  url(http://photos.imageevent.com/afap/wallpapers/movies/theempirestrikesback//empire-strikes-back-poster.jpg);
+ background-size: cover;
+ color: white;
+}
+
+.video27{
+   background: -webkit-linear-gradient(45deg, rgba(229, 0, 0, 0.5) 0%, #000000 100%), url(https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwi96JmB_ObiAhXZXSsKHbcLB_IQjRx6BAgBEAU&url=https%3A%2F%2Fmypostercollection.com%2Ftelevision-posters%2F&psig=AOvVaw3-YW6lJ6KR5rQjN0oGaVcI&ust=1560532805628295);
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           background-size: cover;
+           color: white;
+
+}
+
+
+.video27:hover {
+
+ width: 300px;
+ height: 300px;
+ background:  url(https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwi96JmB_ObiAhXZXSsKHbcLB_IQjRx6BAgBEAU&url=https%3A%2F%2Fmypostercollection.com%2Ftelevision-posters%2F&psig=AOvVaw3-YW6lJ6KR5rQjN0oGaVcI&ust=1560532805628295);
+ background-size: cover;
+ color: white;
+}
+
+.video28{
+   background: -webkit-linear-gradient(45deg, rgba(229, 0, 0, 0.5) 0%, #000000 100%), url(https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwi6_-Km_ObiAhXS7HMBHanRAaUQjRx6BAgBEAU&url=https%3A%2F%2Fwww.posters.cz%2Fkalendare%2Fsherlock-v28096&psig=AOvVaw3-YW6lJ6KR5rQjN0oGaVcI&ust=1560532805628295);
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           background-size: cover;
+           color: white;
+
+}
+
+
+.video28:hover {
+
+ width: 300px;
+ height: 300px;
+ background:  url(https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwi6_-Km_ObiAhXS7HMBHanRAaUQjRx6BAgBEAU&url=https%3A%2F%2Fwww.posters.cz%2Fkalendare%2Fsherlock-v28096&psig=AOvVaw3-YW6lJ6KR5rQjN0oGaVcI&ust=1560532805628295);;
+ background-size: cover;
+ color: white;
+}
+
+.video29{
+   background: -webkit-linear-gradient(45deg, rgba(229, 0, 0, 0.5) 0%, #000000 100%), url(https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjs2t7K_ObiAhUL8HMBHfusAW4QjRx6BAgBEAU&url=https%3A%2F%2Fwww.zulily.com%2Fp%2Ffriends-apartment-poster-352196-70642378.html&psig=AOvVaw3-YW6lJ6KR5rQjN0oGaVcI&ust=1560532805628295);
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           background-size: cover;
+           color: white;
+
+}
+
+.video29:hover {
+
+ width: 300px;
+ height: 300px;
+ background:  url(https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjs2t7K_ObiAhUL8HMBHfusAW4QjRx6BAgBEAU&url=https%3A%2F%2Fwww.zulily.com%2Fp%2Ffriends-apartment-poster-352196-70642378.html&psig=AOvVaw3-YW6lJ6KR5rQjN0oGaVcI&ust=1560532805628295);;
+ background-size: cover;
+ color: white;
+}
+
+.video30{
+   background: -webkit-linear-gradient(45deg, rgba(229, 0, 0, 0.5) 0%, #000000 100%), url(https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/1554999351626-6B390OLR061RXB0662SO/ke17ZwdGBToddI8pDm48kLVs6sDIJyC4onvyRwoI4c0UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8PaoYXhp6HxIwZIk7-Mi3Tsic-L2IOPH3Dwrhl-Ne3Z2Ji-2qTkTnInJnxkcfIhliZcqYY6O1DSbnQVPAiPjo16bhuOb0MAcXaQ6whlEkpec/netflix-shares-a-poster-for-lucifer-season-41);
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           background-size: cover;
+           color: white;
+
+}
+
+.video30:hover {
+
+ width: 300px;
+ height: 300px;
+ background:  url(https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/1554999351626-6B390OLR061RXB0662SO/ke17ZwdGBToddI8pDm48kLVs6sDIJyC4onvyRwoI4c0UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8PaoYXhp6HxIwZIk7-Mi3Tsic-L2IOPH3Dwrhl-Ne3Z2Ji-2qTkTnInJnxkcfIhliZcqYY6O1DSbnQVPAiPjo16bhuOb0MAcXaQ6whlEkpec/netflix-shares-a-poster-for-lucifer-season-41);;
+ background-size: cover;
+ color: white;
+}
+
+/* for mobile */
+
+@media screen and (max-width: 700px) {
+
+.video-boxes{
+  width:95%;
+  margin:2.5%;
+}
+.video-boxes h4{
+  font-family:helvetica;
+  font-weight:100;
+  font-size:40px;
+}
+
+.video-boxes p{
+ display:block;
+ font-family:helvetica;
+ font-size:17px;
+ font-weight:100px;
+
+}
+
+}
+/* Footer Section */
+.white-section {
+    background-color:black ;
+    color:#E50914;
+    text-align: center;
+  }
+
+  .container-fluid{
+    background-color: black;
+
+  }
+
+
+.social-icon {
+ margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+ #title {
+   text-align: center;
+ }
+ #footer{
+   text-align: center;
+ }
+
+ .title-image {
+   position: static;
+   transform: rotate(0);
+ }
+}

@@ -1,7 +1,7 @@
 <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 <style>
 i{
-    font-size:40px;
+    font-size:70px;
 }
 #fb:hover {
   color: royalblue;
@@ -28,29 +28,48 @@ td{
 color:rgb(240, 99, 17);
 }
 #social{
-  background-image: linear-gradient(to right,rgb(202, 65, 118),rgb(65, 147, 202));
-  font-size:32px;
+  color: white;
+    background: black;
+    background-color:rgb(58,51,51);
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 #social i{
   font-size:36px;margin-inline-start: 10px;
 }
 #contact{
-  background-image: linear-gradient(to right,rgb(65, 147, 202),rgb(202, 65, 118));
-  
-  
+  color: white;
+  background: black;
+  background-color:rgb(58,51,51);
+  height:100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
 }
 #contact i{
   font-size: 25px;margin-top:10px; margin-right:5px;
 }
 #contact a{
+  color: white;
+  font-size: 15px;
     color:white;
 }
 
 
 #site_footer{
-  background-image: linear-gradient(to right,rgb(202, 65, 118),rgb(65, 147, 202));
+  color: white;
+  background: black;
+  background-color:rgb(58,51,51);
+  height:100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 #site_footer a{
+  color: white;
   font-size:24px; margin-bottom: 10px;
 }
 footer{
@@ -69,9 +88,9 @@ footer{
     <a href="#"><i class='fab fa-twitter-square' id="twit"></i></a>
     <a href="#"><i class='fab fa-instagram'  id="insta"></i></a>
     <a href="#"><i class='fab fa-youtube-square'  id="yt"></i></a>
-    
-    
-    
+
+
+
       </h2></td>
       <td rowspan="3" id="contact">
         <p style="font-size: 24px; color:white;">Contact Us: <br>
@@ -85,8 +104,8 @@ footer{
 
       </td>
 
-      
+
     </tr>
   </table>
-  
+
 </footer>

@@ -2,9 +2,9 @@
 
 
 function generatePage($body) {
- 
+
     $page = <<<EOPAGE
-   
+
     <!doctype html>
     <html lang="en">
         <head>
@@ -19,7 +19,8 @@ function generatePage($body) {
               table {
                 margin: 0 auto;
                 width: 80%;
-                background: #e7e7e7;
+                background: powderblue;
+                opacity:1;
               }
 
               table.table-bordered {
@@ -34,17 +35,18 @@ function generatePage($body) {
               .rate {
                 font-size: 20px;
                 text-align: center;
-                color: blue;
+                color: darkblue;
               }
               body {
                 background: black;
-                background-image: url('../images/bg.jpg');
+                background-image: url('../images/pop.jpg');
                 height:100%;
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-attachment: fixed;
               }
               h1 {
+                font-size:80px;
                 text-shadow: black .1em .1em .1em;
                 color: white;
               }
@@ -61,7 +63,7 @@ function generatePage($body) {
         </head>
 
     <body>
-    
+
         $body
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

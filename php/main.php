@@ -3,13 +3,13 @@
     include("support.php");
     if (isset($_SESSION["logged"]) && ($_SESSION["logged"] == true)) {
       header('Location: select.php');
-      
+
     }
     $bodyTop = <<<CODE
         <div class="center">
-            <h1 class="title">Welcome to Movie Rating!</h1>
-            <img class="img_center" src="../images/reel.png" alt="reel logo" width="150px" height="150px">
-            <h3>Sign in</h3>
+            <h1 class="title">Welcome to Movie Rating!</h1><br><br>
+            <img class="img_center" src="../images/reel.png" alt="reel logo" width="200px" height="200px">
+            <h2>Sign in</h2>
             <form action="main.php" method="post" class="form-inline">
                 <label for="username" >Username:</label>
                 <input type="text" name="username" method="post" placeholder="Username" required>
@@ -49,7 +49,7 @@ CODE;
             $sqlquery = sprintf("insert into users (username, password) values ('%s', '%s')",
                         $_POST["username"], password_hash($_POST["new_password"], PASSWORD_DEFAULT));
             $result = mysqli_query($connect, $sqlquery);
-            
+
             mysqli_close($connect);
             $bodyBotMessage = "<h4 class=\"center\">Account successfully created.</h4>";
         } else {
@@ -61,7 +61,7 @@ CODE;
         $connect = mysqli_connect("localhost", "root", "", "moviereviews");
         $sqlquery = sprintf("select username,password from users where username=\"".$_POST["username"]."\"");
         $result = mysqli_query($connect, $sqlquery);
-        
+
         if ($result) {
             $data = mysqli_fetch_array($result, MYSQLI_ASSOC);
             if ($data)
@@ -80,8 +80,7 @@ CODE;
         }
         mysqli_close($connect);
     }
-    
+
     echo generatePage($bodyTop.$bodyTopMessage."<hr>".$bodyBot.$bodyBotMessage);
     include("footer.php");
 ?>
-

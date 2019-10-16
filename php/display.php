@@ -1,7 +1,7 @@
 <?php
 	session_start();
 	require_once("supportForSelect.php");
-	
+
 	$body = "";
 	$host = "localhost";
 	$user = "root";
@@ -20,16 +20,16 @@
 	$result1 = mysqli_query($db, $query);
 	$num_rows = $result1->num_rows;
 	$reviews = "";
-	
+
 		for ($row_index = 0; $row_index < $num_rows; $row_index++) {
 			$result1->data_seek($row_index);
 			$row = $result1->fetch_array(MYSQLI_ASSOC);
 
 			$reviews .= $row['reviewed_by']  .",\t"  . $row['rating'] ."/10,\t'" . $row['review']."'\r\n" ;
 			$reviews = nl2br($reviews,false);
-			
+
 		}
-	
+
 $body .= '<div><div class="w3-container"><div class="center">
 <table style="opacity: 0.9;" class="table-striped table-bordered">
 	<tbody><tr>
@@ -52,9 +52,9 @@ $body .= '<div><div class="w3-container"><div class="center">
 	    	$rating = $row["rating"];
 			$total = $row["total"];
 			//$review = $row["review"];
-			
 
-			$body .= '<img src="data:image/jpeg;base64,'.base64_encode( $image ).'" width="300px" height="400px" />';
+
+			$body .= '<img src="data:image/jpeg;base64,'.base64_encode( $image ).'" width="350px" height="450px" />';
 	    	$body.= <<<EOSEND
 			<h1>$name</h1>
 			<hr>
